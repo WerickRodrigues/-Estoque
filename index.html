@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Item ao Estoque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container form-container">
+        <h1>Adicionar Item ao Estoque</h1>
+        <input type="text" id="itemInput" placeholder="Digite um item" />
+        <input type="number" id="valorInput" placeholder="Digite o valor" />
+        <button class="adicionar" onclick="adicionarItemValor()">Adicionar</button>
+        <button class="limpar" onclick="limparItens()">Limpar Estoque</button>
+    </div>
+
+    <div class="container table-container">
+        <h2>Tabela de Estoque e Valores</h2>
+        <input type="text" id="search-input" placeholder="Digite para pesquisar..." />
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Valor</th>
+                    <th>Quantidade</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

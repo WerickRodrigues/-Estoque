@@ -1,0 +1,136 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-container {
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 800px;
+    overflow-x: auto;
+}
+
+input[type="number"], input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.adicionar {
+    background-color: blue;
+}
+
+.adicionar:hover {
+    background-color: #191970; 
+}
+
+button.limpar {
+    background-color: #ff3300;
+}
+
+button.limpar:hover {
+    background-color: #b22222;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.status-button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.status-button.disponivel {
+    background-color: green;
+}
+
+.status-button.disponivel:hover {
+    background-color: darkgreen;
+}
+
+.status-button.indisponivel {
+    background-color: red;
+}
+
+.status-button.indisponivel:hover {
+    background-color: #b22222;
+}
+
+button{
+    background-color: red;
+}
+
+button:hover {
+    background-color: #b22222;
+}
+.btn-increment {
+    background-color: blue; 
+}
+
+.btn-increment:hover {
+    background-color: #191970; 
+}
+
+.btn-decrement {
+    background-color: #f44336; 
+}
+
+.btn-decrement:hover {
+    background-color: #c62828; 
+}
